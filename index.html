@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ポートフォリオ</title>
+    <meta name="description" content="ポートフォリオ">
+    <link rel="icon" type="image/png" href="images/Diamond%20Icon.png">
+
+<!-- CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+<body>
+    <header class="page-header">
+        <h1>Sayo Iwamoto</h1>
+        <nav>
+         <ul class="main-nav">
+            <li><a href="#Profill">Profill</a></li>
+            <li><a href="#Skill">Skill</a></li>
+            <!-- <li><a href="#Service">Service</a></li> -->
+            <li><a href="#Contact">Contact</a></li>
+         </ul>
+        </nav>
+    </header> 
+
+<main>
+ <div class="big-bg">
+     <img src="images/sweets.JPG">
+ </div>
+ <div class="container">
+   <section><p>最終アクセス日時：<span id="time"></span></p>
+   </section>
+ </div><!-- /.container -->
+
+ <script>
+'use strict';
+    const now = new Date();
+    const year= now.getFullYear();
+    const month = now.getMonth();
+    const date = now.getDate();
+    const hour = now.getHours();
+    const min = now.getMinutes();
+
+    const output =`${year}/${month + 1}/${date} ${hour}:${min}`;
+    document.getElementById('time').textContent = output;
+    </script>
+</main>
+ 
+    
+   <section >
+       <div class="home-content">
+         <h2 id="Profill">Profill</h2>
+         <p>岩元沙代（いわもと さよ）</p>
+         <p>愛知県出身 東京都在住</p>
+         <br>
+         <h3>【略歴】</h3>
+         <p>2017年3月  同志社大学社会学部卒業</p>
+         <p>2017年4月  番組制作会社に就職。キー局情報番組のADを担当</p>
+         <p>2018年4月  IT企業 営業に転職（継続中）</p>
+         <br>
+         <p>嵐とトトロと京都が大好き。</p>
+         <p>好奇心旺盛で常に挑戦を続けています！</p>
+         <br>
+        </div><!--/home-content-->
+        <div class="photo">
+            <img src="images/Sayo.jpeg" alt="岩元 写真">
+        </div>
+   </section>
+    
+    <section class="skill-sec">
+        <div class="my-skill">
+    <h2 id=Skill>Skill</h2>
+    <h3>■プログラミング</h3>
+    <ul class="programming">
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <p>★スマホ対応も可能です。</p>
+    <p>(勉強中)Wordpress, JavaScript, jQuery, PHP</p>
+    
+    <br>
+    <p>制作予算：1ページ2万円〜</p>
+    <p>制作期間：1ページ1週間程度</p>
+    
+    <br>
+    <h3>■資料作成(Powerpoint・Keynote)</h3>
+    <p>一目で分かる資料を作成します。</p>
+    <p>アニメーションもお任せください。</p>
+    <br>
+    <p>制作予算：1ページ2000円〜</p>
+    <p>制作期間：即日も可能です。</p>
+
+    <br>
+    <h3>■ライティング</h3>
+    <p>コピーライティングも習得済です。</p>
+    <p>芸能からアフィリエイトまで幅広く対応可能です。</p>
+    <br>
+    <p>制作予算：1文字1円〜</p>
+    <p>制作期間：即日も可能です。</p>
+    <br>
+    </div>
+</section>
+    <!-- <div class="my-service wrapper">
+        <h2 id=Service>Service</h2>
+        <br>
+        <p>現在準備中です。</p>
+        <br>
+        <br>
+    </div> -->
+    
+    <div class="my-contact wrapper">
+        <h2 id=Contact>Contact</h2>
+        <br>
+        <p>以下のURLからお気軽にお問い合わせください。</p>
+
+        <p>よろしくお願いいたします。</p>
+        <br>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSffcmjvup9ihir27nbYfxNJpOlvx1LxJXw0UTRdFAAXvPWkNA/viewform" class="btn-square-shadow">お問い合わせはコチラ！</a>
+        <br>
+        <p>★<a href="https://www.lancers.jp/profile/5fc1e69508de2">ランサーズ</a>にも掲載中です　　★</p>
+        <br>
+    </div>
+
+<!-- twitter
+<div class="sns">
+    <h2>Twitter</h2>
+    <a class="twitter-timeline" data-height="350" href="https://twitter.com/ribon310434?ref_src=twsrc%5Etfw">Tweets by ribon310434</a> 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div> -->
+
+   <footer>
+       (c)osayo3104.com
+   </footer> 
+</body>
+
+</html>
