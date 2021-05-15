@@ -7,6 +7,8 @@ html{
 
 h1{
     color:pink;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 body{
     font-family:"Yu Gothic Medium","游ゴシック Medium", YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
@@ -75,6 +77,12 @@ h2{
     font-size:2rem;
     font-family: 'Philosopher',serif;
     margin-left: 10px;
+    margin-bottom: 0px; 
+    padding: 0;
+}
+.under{
+    border-bottom: double;
+    border-color: red;
 }
 h3{
     font-size:1rem;
@@ -109,6 +117,12 @@ h3{
     color:#660000;
     background: none;
 } */
+.lancers{
+    color:blue;
+}
+.lancers:hover{
+    color:skyblue;
+}
 
 footer{
     font-family: 'IM Fell DW Pica SC', serif;
